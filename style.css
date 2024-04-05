@@ -152,7 +152,7 @@ body {
 
 .header-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-left: 30px;
 }
@@ -162,7 +162,7 @@ body {
     font-weight: 600;
     color: #FFFFFF;
     background-color: #1992D4;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 25px;
 }
