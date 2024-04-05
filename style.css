@@ -84,6 +84,16 @@ body {
     align-items: center;
 }
 
+.sidebar-main-nav ul li a:hover,
+.sidebar-secondary-nav ul li a:hover {
+    color: #F0B429;
+}
+
+.sidebar-main-nav ul li a:hover svg,
+.sidebar-secondary-nav ul li a:hover svg {
+    fill: #F0B429;
+}
+
 .sidebar-main-nav ul li,
 .sidebar-secondary-nav ul li {
     margin-top: 1rem;
@@ -166,6 +176,10 @@ body {
     border-radius: 25px;
 }
 
+.header-buttons button:hover {
+    color: #F0B429;
+}
+
 .header-info .user-profile-pic img {
     width: 70px;
     border: 10px solid #FACC15;
@@ -241,6 +255,10 @@ body {
     font-weight: 700;
 }
 
+.project-title:hover {
+    color: #F0B429;
+}
+
 .project-description {
     padding: 0px 20px 10px 20px;
     margin-top: 5px;
@@ -259,6 +277,10 @@ body {
     height: 30px;
     margin: 20px;
     fill: #636363
+}
+
+.project-icons svg:hover {
+    fill: #F0B429;
 }
 
 .announcements-heading,
@@ -293,6 +315,10 @@ body {
 .announcement-title {
     font-size: 18px;
     font-weight: 700;
+}
+
+.announcement-title:hover {
+    color: #F0B429;
 }
 
 .announcement-text {
@@ -334,6 +360,8 @@ body {
     font-weight: 400;
     color: #636363;
 }
+
+
 
 /* 
 #FACC15
